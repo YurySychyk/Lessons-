@@ -8,5 +8,8 @@ var tupl = (1, "hello", true)
 tupl.0
 tupl.1
 tupl.2
+//Binding
 let ( numberT, nameT, BoolT) = tupl
 print(tupl)
+let (_, _, checkBool) = tupl
+print(checkBool)
