@@ -13,3 +13,5 @@ let ( numberT, nameT, BoolT) = tupl
 print(tupl)
 let (_, _, checkBool) = tupl
 print(checkBool)
+let namedTuple = (numbe : 1, namee : "alex", boolean : false)
+print(namedTuple.boolean)
