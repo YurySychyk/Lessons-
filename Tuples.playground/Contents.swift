@@ -1,8 +1,10 @@
 import UIKit
 
 var greeting = "Hello, playground"
+//Create tuole
+///learn tuple
 var tupl = (1, "hello", true)
-//var tupl1 (numberOne, name2, cfu) = tupl
+//Tuples index
 tupl.0
 tupl.1
 tupl.2
