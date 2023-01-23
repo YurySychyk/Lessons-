@@ -18,3 +18,9 @@ print(namedTuple.boolean)
 // change tuples value
 namedTuple.boolean = true
 print(namedTuple)
+var tuplNew = (1,2,3, true)
+print(tuplNew.0)
+print(tuplNew.1)
+print(tuplNew.2)
+print(tuplNew.3)
+//print(tuplNew.4)
